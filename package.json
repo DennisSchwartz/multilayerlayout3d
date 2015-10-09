@@ -1,0 +1,37 @@
+{
+  "name": "multilayerlayout3d",
+  "description": "A multilayer layout for ngraph.three",
+  "version": "0.0.1",
+  "homepage": "https://github.com/DennisSchwartz/multilayerlayout3d",
+  "author": {
+    "name": "Dennis Schwartz",
+    "email": "schwartz_dennis@web.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DennisSchwartz/multilayerlayout3d.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DennisSchwartz/multilayerlayout3d/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/DennisSchwartz/multilayerlayout3d/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/multilayerlayout3d",
+  "engines": {
+      "node": ">= 0.10.36",
+      "npm": ">=1.4.28"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~2.1.2",
+    "mocha": "~2.2.1"
+  },
+  "keywords": []
+}
