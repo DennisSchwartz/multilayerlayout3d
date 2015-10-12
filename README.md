@@ -2,29 +2,31 @@
 
 > A multilayer layout for ngraph.three
 
+This is a custom layout for the great [ngraph](https://github.com/anvaka/ngraph) project, more specifically for
+[ngraph.three](https://github.com/anvaka/ngraph.three).
+It is heavily based on ngraph.forcelayout and [ngraph.forcelayout3d](https://github.com/anvaka/ngraph.forcelayout3d)
+
+It is used in my multilayer network visualisation module [mplexviz-ngraph](https://github.com/DennisSchwartz/mplexviz-ngraph).
+Every layer of the graph is calculated separately as a 2d force-directed graph.
+
 ## Getting Started
 Install the module with: `npm install multilayerlayout3d`
 
-```javascript
-var multilayerlayout3d = require('multilayerlayout3d');
-multilayerlayout3d.awesome(); // "hello "
-```
-
-## Documentation
-
-#### .awesome(name)
-
-**Parameter**: `name`
-**Type**: `String`
-**Example**: `Livia`
-
-The 'awesome' method is responsible for showing a name.
-
-How to use this method
+Initialize ngraph.three with this layout:
 
 ```javascript
-multilayerlayout3d.awesome('livia'); // "hello livia"
+var mplexLayout = require('multilayerlayout3d');
+/*
+    Initialize ngraph.three
+ */
+var graphics = nthree(this.graph, {
+    container: document.body,
+    layout: mplexLayout(this.graph, physicsSettings)
+});
 ```
+
+Compare to [ngraph.three](https://github.com/anvaka/ngraph.three)
+
 
 ## Contributing
 
