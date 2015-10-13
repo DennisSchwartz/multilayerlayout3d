@@ -3,6 +3,8 @@ node_modules
 example
 docs
 .idea
+*.tgz
+
 
 
 # don't ignore .npmignore files

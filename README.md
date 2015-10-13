@@ -18,12 +18,33 @@ multilayerlayout3d.awesome(); // "hello "
 **Type**: `String`
 **Example**: `Livia`
 
+<<<<<<< Updated upstream
 The 'awesome' method is responsible for showing a name.
 
 How to use this method
 
 ```javascript
 multilayerlayout3d.awesome('livia'); // "hello livia"
+=======
+You can also specify the distance between layers in the options, passed as an additional input value/
+
+```javascript
+
+/*
+    Set options
+*/
+var options = {
+    interLayerDistance: 100
+};
+
+/*
+    Initialize ngraph.three
+ */
+var graphics = nthree(this.graph, {
+    container: document.body,
+    layout: mplexLayout(this.graph, physicsSettings, options)
+});
+>>>>>>> Stashed changes
 ```
 
 ## Contributing
