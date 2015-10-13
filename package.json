@@ -20,6 +20,7 @@
       "url": "https://github.com/DennisSchwartz/multilayerlayout3d/blob/master/LICENSE"
     }
   ],
+  "license": "MIT",
   "main": "lib/multilayerlayout3d",
   "engines": {
     "node": ">= 0.10.36",
@@ -36,5 +37,12 @@
     "chai": "~2.1.2",
     "mocha": "~2.2.1"
   },
-  "keywords": []
+  "keywords": [
+    "ngraph",
+    "ngraph.three",
+    "multlayer networks",
+    "multiplex networks",
+    "networks",
+    "visualisation"
+  ]
 }
