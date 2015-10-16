@@ -6,4 +6,5 @@ build
 coverage/lcov.info
 .coveralls.yml
 examples-out
-*.tgzscript.sh
+*.tgz
+script.sh
