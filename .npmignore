@@ -4,7 +4,7 @@ example
 docs
 .idea
 *.tgz
-
+script.sh
 
 
 # don't ignore .npmignore files
