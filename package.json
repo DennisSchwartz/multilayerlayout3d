@@ -1,7 +1,7 @@
 {
   "name": "multilayerlayout3d",
   "description": "A multilayer layout for ngraph.three",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/DennisSchwartz/multilayerlayout3d",
   "author": {
     "name": "Dennis Schwartz",
